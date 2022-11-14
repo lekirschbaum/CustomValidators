@@ -1,0 +1,16 @@
+{
+    "name": "com.lekirschbaum.custom-validators.Tests",
+    "rootNamespace": "",
+    "references": [
+        "GUID:72cea12ef1490df41b1bf45bff798742"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
