@@ -1,12 +1,12 @@
 #if UNITY_EDITOR
 using Sirenix.OdinInspector.Editor.Validation;
 using UnityEngine.UI;
-using LeKirschbaum.CustomValidators.RootObjectValidators;
+using LeKirschbaum.CustomValidators.Runtime.RootObjectValidators;
 using Sirenix.OdinInspector;
 
 [assembly: RegisterValidationRule(typeof(ImageValidator), Name = "Image Validator", Description = "Validator for the image component.")]
 
-namespace LeKirschbaum.CustomValidators.RootObjectValidators
+namespace LeKirschbaum.CustomValidators.Runtime.RootObjectValidators
 {
     public class ImageValidator : RootObjectValidator<Image>
     {

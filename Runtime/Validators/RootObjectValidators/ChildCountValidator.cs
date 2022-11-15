@@ -1,13 +1,13 @@
 #if UNITY_EDITOR
 using System.Collections.Generic;
-using LeKirschbaum.CustomValidators.RootObjectValidators;
+using LeKirschbaum.CustomValidators.Runtime.RootObjectValidators;
 using Sirenix.OdinInspector.Editor.Validation;
 using UnityEngine;
 using Sirenix.OdinInspector;
 
 [assembly: RegisterValidationRule(typeof(ChildCountValidator), Name = "Child Count Validator", Description = "Validator that checks the amount of children for GameObjects.")]
 
-namespace LeKirschbaum.CustomValidators.RootObjectValidators
+namespace LeKirschbaum.CustomValidators.Runtime.RootObjectValidators
 {
     public class ChildCountValidator : RootObjectValidator<GameObject>
     {

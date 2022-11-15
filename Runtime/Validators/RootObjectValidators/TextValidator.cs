@@ -1,12 +1,12 @@
 #if UNITY_EDITOR
-using LeKirschbaum.CustomValidators.RootObjectValidators;
+using LeKirschbaum.CustomValidators.Runtime.RootObjectValidators;
 using Sirenix.OdinInspector;
 using Sirenix.OdinInspector.Editor.Validation;
 using UnityEngine.UI;
 
 [assembly: RegisterValidationRule(typeof(TextValidator), Name = "Text (Legacy) Validator", Description = "Validator for the legacy text component.")]
 
-namespace LeKirschbaum.CustomValidators.RootObjectValidators
+namespace LeKirschbaum.CustomValidators.Runtime.RootObjectValidators
 {
     public class TextValidator : RootObjectValidator<Text>
     {
