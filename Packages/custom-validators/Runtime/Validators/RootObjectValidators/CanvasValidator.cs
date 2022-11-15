@@ -1,12 +1,12 @@
 #if UNITY_EDITOR
-using LeKirschbaum.CustomValidators.RootObjectValidators;
+using LeKirschbaum.CustomValidators.Runtime.RootObjectValidators;
 using Sirenix.OdinInspector;
 using Sirenix.OdinInspector.Editor.Validation;
 using UnityEngine;
 
 [assembly: RegisterValidationRule(typeof(CanvasValidator), Name = "Canvas Validator", Description = "Validator for the Canvas component.")]
 
-namespace LeKirschbaum.CustomValidators.RootObjectValidators
+namespace LeKirschbaum.CustomValidators.Runtime.RootObjectValidators
 {
     public class CanvasValidator : RootObjectValidator<Canvas>
     {

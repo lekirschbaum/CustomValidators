@@ -1,9 +1,7 @@
 {
-    "name": "com.lekirschbaum.custom-validators.Tests",
+    "name": "lekirschbaum.custom-validators.Runtime",
     "rootNamespace": "",
-    "references": [
-        "GUID:72cea12ef1490df41b1bf45bff798742"
-    ],
+    "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,

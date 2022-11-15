@@ -1,12 +1,12 @@
 #if UNITY_EDITOR
-using LeKirschbaum.CustomValidators.RootObjectValidators;
+using LeKirschbaum.CustomValidators.Runtime.RootObjectValidators;
 using Sirenix.OdinInspector.Editor.Validation;
 using UnityEngine;
 using Sirenix.OdinInspector;
 
 [assembly: RegisterValidationRule(typeof(AnimationValidator), Name = "Animation Validator", Description = "Validator for the Animation component.")]
 
-namespace LeKirschbaum.CustomValidators.RootObjectValidators
+namespace LeKirschbaum.CustomValidators.Runtime.RootObjectValidators
 {
     public class AnimationValidator : RootObjectValidator<Animation>
     {

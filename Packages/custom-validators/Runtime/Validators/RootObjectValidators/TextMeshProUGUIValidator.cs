@@ -1,5 +1,5 @@
 #if UNITY_EDITOR
-using LeKirschbaum.CustomValidators.RootObjectValidators;
+using LeKirschbaum.CustomValidators.Runtime.RootObjectValidators;
 using Sirenix.OdinInspector;
 using Sirenix.OdinInspector.Editor.Validation;
 using UnityEngine;
@@ -7,7 +7,7 @@ using TMPro;
 
 [assembly: RegisterValidationRule(typeof(TextMeshProUGUIValidator), Name = "Text (TMP) Validator", Description = "Validator for the TextMeshProGUI component.")]
 
-namespace LeKirschbaum.CustomValidators.RootObjectValidators
+namespace LeKirschbaum.CustomValidators.Runtime.RootObjectValidators
 {
     public class TextMeshProUGUIValidator : RootObjectValidator<TextMeshProUGUI>
     {

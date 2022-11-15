@@ -1,17 +1,16 @@
 {
-    "name": "com.lekirschbaum.custom-validators",
-    "version": "1.0.0",
-    "displayName": "Custom Validators",
-    "description": "A set of custom validators for the Odin Validator tool in Unity.",
-    "unity": "2021.3",
-    "documentationUrl": "https://github.com/lekirschbaum/CustomValidators/wiki",
-    "dependencies": {
-
-    },
-    "keywords": ["odin-validator"],
-    "author": {
-        "name": "Leon Kirschbaum",
-        "email": "lekirschbaum@stud.mediadesign.de",
-        "url": "https://www.leonkirschbaum.com"
-    }
+  "name": "com.lekirschbaum.custom-validators",
+  "version": "1.0.0",
+  "displayName": "Custom Validators",
+  "description": "A set of custom validators for the Odin Validator tool in Unity.\n\nRequires Odin Inspector (https://odininspector.com) and Odin Validator (https://odininspector.com/odin-validator).",
+  "unity": "2021.3",
+  "documentationUrl": "https://github.com/lekirschbaum/CustomValidators/wiki",
+  "keywords": [
+    "odin-validator"
+  ],
+  "author": {
+    "name": "Leon Kirschbaum",
+    "email": "lekirschbaum@stud.mediadesign.de",
+    "url": "https://www.leonkirschbaum.com"
+  }
 }

@@ -1,5 +1,5 @@
 #if UNITY_EDITOR
-using LeKirschbaum.CustomValidators.ValueValidators;
+using LeKirschbaum.CustomValidators.Runtime.ValueValidators;
 using Sirenix.OdinInspector;
 using Sirenix.OdinInspector.Editor.Validation;
 using UnityEngine;
@@ -7,7 +7,7 @@ using UnityEditor;
 
 [assembly: RegisterValidationRule(typeof(Texture2DValidator), Name = "Texture2D Validator", Description = "Validator for Texture 2D assets.")]
 
-namespace LeKirschbaum.CustomValidators.ValueValidators
+namespace LeKirschbaum.CustomValidators.Runtime.ValueValidators
 {
     public class Texture2DValidator : ValueValidator<Texture2D>
     {
